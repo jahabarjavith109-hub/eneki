@@ -129,19 +129,5 @@ window.ENKEI = {
     linksTitle: "Company",
     contactTitle: "Contact",
     rights: "All rights reserved."
-  },
-
-  otherBusinesses: {
-    title: "Our other businesses",
-    subtitle: "Diverse businesses. One shared vision.",
-    body: "Enkei Services is part of a wider group. Our sister companies serve FMCG and food distribution across Singapore and the region.",
-    items: [
-      { name: "HMN Global Brands Pte Ltd", url: "https://hmn-sg.vercel.app/",
-        tag: "FMCG distributor · Since 1999",
-        body: "Reliable brand partner for perfumes and toiletries — Singapore FMCG distributor since 1999." },
-      { name: "AAA Global Foods Pte Ltd", url: "https://aaagf.sg",
-        tag: "Food distribution",
-        body: "Brand-name foodstuffs distributor — quality food products across Singapore and the region." }
-    ]
   }
 };

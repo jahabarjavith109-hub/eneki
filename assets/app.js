@@ -62,18 +62,6 @@
       <div class="region-places">${r.places.map(p => `<span>${p}</span>`).join("")}</div>
     </div>`).join("");
 
-  /* ---------- other businesses ------------------------------------------ */
-  const OB = D.otherBusinesses;
-  document.getElementById("otherBizTitle").textContent = OB.title;
-  document.getElementById("otherBizSubtitle").textContent = OB.subtitle;
-  document.getElementById("otherBizBody").textContent = OB.body;
-  document.getElementById("otherBizGrid").innerHTML = OB.items.map(b => `
-    <a class="other-biz-card reveal" href="${b.url}" target="_blank" rel="noopener">
-      <div class="other-biz-tag">${b.tag}</div>
-      <h3 class="other-biz-name">${b.name}</h3>
-      <p class="other-biz-body">${b.body}</p>
-    </a>`).join("");
-
   /* ---------- security helpers ------------------------------------------ */
   const sanitize = (v) => String(v == null ? "" : v)
     .replace(/[<>\"'`]/g, "")

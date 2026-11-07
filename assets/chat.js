@@ -37,8 +37,6 @@
       a: () => `${D.quote.title} — ${D.quote.body} Rates usually same working day.\n\nUse the quote form on this page, or WhatsApp us directly.` },
     { keys: ["contact", "phone", "whatsapp", "email", "address", "office", "call"],
       a: () => ({ text: `Contact Enkei Services:\n📞 ${C.phone}\n💬 WhatsApp: https://wa.me/${C.whatsapp}\n✉️ ${C.email}\n📍 ${C.address.join(", ")}\nCo. Reg. ${C.reg}`, link: { label: "Open WhatsApp chat", href: `https://wa.me/${C.whatsapp}` } }) },
-    { keys: ["other business", "other businesses", "sister", "group", "hmn", "aaa", "global brands", "global foods", "perfume", "toiletries", "foodstuff", "food stuffs"],
-      a: () => ({ text: `Enkei is part of a wider group:\n\n1. HMN Global Brands Pte Ltd (hmn.sg) — Reliable brand partner since 1999. Singapore FMCG distributor dealing in perfumes & toiletries.\n2. AAA Global Foods Pte Ltd (aaagf.sg) — Brand-name foodstuffs distributor.\n\nVisit their sites for more.`, links: [{ label: "HMN Global Brands", href: "https://hmn.sg" }, { label: "AAA Global Foods", href: "https://aaagf.sg" }] }) },
     { keys: ["company", "about", "who are you", "who is enkei", "enkei"],
       a: () => `${C.legal} — ${D.footer.blurb} ${D.network.body}\nRegistration no. ${C.reg}, ${C.address.join(", ")}.` },
     { keys: ["hub", "dubai", "netherlands"],

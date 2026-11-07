@@ -445,30 +445,6 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 .trust-item p { color: var(--ink-dim); font-size: 15.5px; }
 
-/* ---------- other businesses -------------------------------------------- */
-.other-biz { background: var(--bg-2); border-block: 1px solid var(--line); }
-.other-biz-grid {
-  display: grid; gap: 18px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-.other-biz-card {
-  display: flex; flex-direction: column; gap: 12px;
-  background: var(--panel); border: 1px solid var(--line);
-  border-radius: var(--radius); padding: 28px;
-  transition: transform .35s ease, border-color .35s ease;
-}
-.other-biz-card:hover { transform: translateY(-5px); border-color: rgba(239, 91, 23, 0.55); }
-.other-biz-tag {
-  font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em;
-  text-transform: uppercase; color: var(--orange);
-}
-.other-biz-name {
-  font-family: var(--display); font-weight: 700; font-size: 24px;
-  letter-spacing: -0.01em;
-}
-.other-biz-body { color: var(--ink-dim); font-size: 15.5px; flex: 1; }
-.other-biz-link { font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; color: var(--orange-hi); }
-
 /* ---------- footer ------------------------------------------------------- */
 .footer {
   background: #070c13; border-top: 1px solid var(--line);
