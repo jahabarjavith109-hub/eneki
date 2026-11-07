@@ -1,0 +1,2 @@
+[      85ms] [ERROR] The Content Security Policy directive 'frame-ancestors' is ignored when delivered via a <meta> element. @ http://127.0.0.1:8131/:11
+[     191ms] [ERROR] Failed to find a valid digest in the 'integrity' attribute for resource 'http://127.0.0.1:8131/assets/scene.js' with computed SHA-384 integrity '3ujRr+oXEcmG4YbPiWqGQ/IrPsoy78fXrQDgwC5JQ8/EG0WdP8FNRIFE8R1JguRZ'. The resource has been blocked. @ http://127.0.0.1:8131/:0

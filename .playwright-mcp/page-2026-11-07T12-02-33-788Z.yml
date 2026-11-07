@@ -1,0 +1,289 @@
+- generic [active] [ref=f25e1]:
+  - banner [ref=f25e2]:
+    - link "Enkei Services home" [ref=f25e3] [cursor=pointer]:
+      - /url: "#top"
+      - img "Enkei Services logo" [ref=f25e4]
+      - generic [ref=f25e5]: Enkei Services
+    - navigation "Primary" [ref=f25e6]:
+      - link "Services" [ref=f25e7] [cursor=pointer]:
+        - /url: "#services"
+      - link "Tracking" [ref=f25e8] [cursor=pointer]:
+        - /url: "#tracking"
+      - link "Quote" [ref=f25e9] [cursor=pointer]:
+        - /url: "#quote"
+      - link "Get a quote" [ref=f25e10] [cursor=pointer]:
+        - /url: "#quote"
+  - region "How Enkei moves your freight" [ref=f25e11]:
+    - generic [ref=f25e12]:
+      - generic [aria-hidden]: PRECISION
+      - generic:
+        - generic:
+          - paragraph: — SEA, AIR, ROAD AND WAREHOUSING
+          - heading "Precision, delivered." [level=1]:
+            - generic: Precision,
+            - generic: delivered.
+          - paragraph: Air and sea freight, storage hubs and last-mile handling across Asia, the Middle East, Europe and Africa — one team, every box exactly where it should be.
+          - generic:
+            - link "Get a quote →" [ref=f25e21] [cursor=pointer]:
+              - /url: "#quote"
+              - text: Get a quote
+              - generic [ref=f25e22]: →
+            - link "Track a shipment" [ref=f25e23] [cursor=pointer]:
+              - /url: "#tracking"
+        - generic [aria-hidden]:
+          - generic: 12.03 M LENGTH
+          - generic: 2.90 M HEIGHT
+          - generic: 21.4 T VERIFIED
+        - generic [aria-hidden]:
+          - generic: LIFTED
+        - generic: SCROLL TO FOLLOW THE CARGO
+        - generic [aria-hidden]:
+          - generic: "01"
+          - generic: / 07
+          - generic: LIFTED
+  - region "Enkei at a glance" [ref=f25e24]:
+    - generic [ref=f25e25]:
+      - generic [ref=f25e26]:
+        - generic [ref=f25e27]: 10+
+        - generic [ref=f25e28]: Years in freight
+      - generic [ref=f25e29]:
+        - generic [ref=f25e30]: "12"
+        - generic [ref=f25e31]: Markets served
+      - generic [ref=f25e32]:
+        - generic [ref=f25e33]: "3"
+        - generic [ref=f25e34]: Storage hubs
+      - generic [ref=f25e35]:
+        - generic [ref=f25e36]: 24h
+        - generic [ref=f25e37]: Quote turnaround
+  - generic [ref=f25e38]:
+    - generic [ref=f25e39]:
+      - paragraph [ref=f25e40]: // What we move
+      - heading "Six ways to get it there." [level=2] [ref=f25e41]
+      - paragraph [ref=f25e42]: Air and sea freight, three storage hubs and the people on the ground to move it the last mile — booked as one shipment.
+    - generic [ref=f25e43]:
+      - article [ref=f25e44]:
+        - generic [ref=f25e46]: "01"
+        - heading "Air Freight" [level=3] [ref=f25e47]
+        - paragraph [ref=f25e48]: Priority and economy air cargo, charters and consolidated shipments on the corridors we run weekly.
+        - generic [ref=f25e49]:
+          - generic [ref=f25e50]: Door-to-door
+          - generic [ref=f25e51]: Airport-to-airport
+          - generic [ref=f25e52]: Perishables
+      - article [ref=f25e53]:
+        - generic [ref=f25e55]: "02"
+        - heading "Sea Freight" [level=3] [ref=f25e56]
+        - paragraph [ref=f25e57]: FCL, LCL and consolidation out of Singapore with direct lines to Asia, the Middle East, Europe and Africa.
+        - generic [ref=f25e58]:
+          - generic [ref=f25e59]: FCL
+          - generic [ref=f25e60]: LCL
+          - generic [ref=f25e61]: Breakbulk
+      - article [ref=f25e62]:
+        - generic [ref=f25e64]: "03"
+        - heading "Storage Hubs" [level=3] [ref=f25e65]
+        - paragraph [ref=f25e66]: Bonded and general warehousing in Singapore, Dubai and the Netherlands — your stock, our roof, your rules.
+        - generic [ref=f25e67]:
+          - generic [ref=f25e68]: Singapore
+          - generic [ref=f25e69]: Dubai
+          - generic [ref=f25e70]: Netherlands
+      - article [ref=f25e71]:
+        - generic [ref=f25e73]: "04"
+        - heading "Singapore Supply Chain" [level=3] [ref=f25e74]
+        - paragraph [ref=f25e75]: In-country management of orders, consolidation and distribution, run from our Ubi Crescent office.
+        - generic [ref=f25e76]:
+          - generic [ref=f25e77]: Order handling
+          - generic [ref=f25e78]: Consolidation
+          - generic [ref=f25e79]: Distribution
+      - article [ref=f25e80]:
+        - generic [ref=f25e82]: "05"
+        - heading "3PL" [level=3] [ref=f25e83]
+        - paragraph [ref=f25e84]: Third-party logistics that plugs into your team — inventory, pick-and-pack, kitting and returns.
+        - generic [ref=f25e85]:
+          - generic [ref=f25e86]: Pick & pack
+          - generic [ref=f25e87]: Kitting
+          - generic [ref=f25e88]: Returns
+      - article [ref=f25e89]:
+        - generic [ref=f25e91]: "06"
+        - heading "Local Handling & Delivery" [level=3] [ref=f25e92]
+        - paragraph [ref=f25e93]: Port and airport collections, customs clearance, trucking and final delivery under one booking.
+        - generic [ref=f25e94]:
+          - generic [ref=f25e95]: Customs
+          - generic [ref=f25e96]: Trucking
+          - generic [ref=f25e97]: Last mile
+  - generic [ref=f25e98]:
+    - generic [ref=f25e99]:
+      - paragraph [ref=f25e100]: // Coverage
+      - heading "One booking, twelve markets." [level=2] [ref=f25e101]
+      - paragraph [ref=f25e102]: Enkei moves freight across Asia-Pacific, Europe, the Middle East and Africa from hubs in Singapore, Dubai and the Netherlands.
+    - generic [ref=f25e103]:
+      - generic [ref=f25e104]:
+        - generic [ref=f25e105]: South-East Asia
+        - generic [ref=f25e106]:
+          - generic [ref=f25e107]: Singapore
+          - generic [ref=f25e108]: Malaysia
+          - generic [ref=f25e109]: Indonesia
+          - generic [ref=f25e110]: Myanmar
+          - generic [ref=f25e111]: Philippines
+      - generic [ref=f25e112]:
+        - generic [ref=f25e113]: North & East Asia
+        - generic [ref=f25e114]:
+          - generic [ref=f25e115]: India
+          - generic [ref=f25e116]: Japan
+          - generic [ref=f25e117]: Thailand
+          - generic [ref=f25e118]: Hong Kong
+      - generic [ref=f25e119]:
+        - generic [ref=f25e120]: West & Rest
+        - generic [ref=f25e121]:
+          - generic [ref=f25e122]: Europe
+          - generic [ref=f25e123]: Middle East
+          - generic [ref=f25e124]: Africa
+  - generic [ref=f25e126]:
+    - generic [ref=f25e127]:
+      - paragraph [ref=f25e128]: // Tracking
+      - heading "Where is my shipment?" [level=2] [ref=f25e129]
+      - paragraph [ref=f25e130]: Enter your booking or container reference. We locate it across our hubs and reply with the latest status.
+      - generic [ref=f25e131]:
+        - generic [ref=f25e132]:
+          - generic [ref=f25e133]: Hubs
+          - paragraph [ref=f25e134]: Singapore · Dubai · Netherlands — your cargo is under one roof, not three vendors.
+        - generic [ref=f25e135]:
+          - generic [ref=f25e136]: Answered
+          - paragraph [ref=f25e137]: Requests reach a person on our team, not an auto-reply queue.
+        - generic [ref=f25e138]:
+          - generic [ref=f25e139]: Proof
+          - paragraph [ref=f25e140]: Proof of delivery returned the same day your shipment lands.
+    - generic [ref=f25e141]:
+      - generic [ref=f25e142]:
+        - generic [ref=f25e143]: Booking / container reference
+        - textbox "Booking / container reference" [ref=f25e144]:
+          - /placeholder: e.g. ENS-204581 or MSKU 4820193
+      - generic [ref=f25e145]:
+        - generic [ref=f25e146]: Email or phone
+        - textbox "Email or phone" [ref=f25e147]:
+          - /placeholder: so we know where to reply
+      - button "Request location →" [ref=f25e149] [cursor=pointer]:
+        - text: Request location
+        - generic [ref=f25e150]: →
+      - paragraph [ref=f25e151]: No live portal yet — a person on our team checks and answers, usually within the working day.
+  - generic [ref=f25e153]:
+    - generic [ref=f25e154]:
+      - paragraph [ref=f25e155]: // Quote
+      - heading "Get a quote" [level=2] [ref=f25e156]
+      - paragraph [ref=f25e157]: Tell us what is moving and where. We come back with a rate — usually the same working day.
+      - generic [ref=f25e158]:
+        - generic [ref=f25e159]:
+          - generic [ref=f25e160]: Same day
+          - paragraph [ref=f25e161]: Rates usually returned within the working day, often within the hour.
+        - generic [ref=f25e162]:
+          - generic [ref=f25e163]: Direct
+          - paragraph [ref=f25e164]:
+            - text: Talk to the person who will handle the booking —
+            - link "+65 8158 6235" [ref=f25e165] [cursor=pointer]:
+              - /url: tel:+6581586235
+            - text: .
+        - generic [ref=f25e166]:
+          - generic [ref=f25e167]: No obligation
+          - paragraph [ref=f25e168]: A quote is a quote — nothing is charged until you book.
+    - generic [ref=f25e169]:
+      - generic [ref=f25e170]:
+        - generic [ref=f25e171]:
+          - generic [ref=f25e172]:
+            - generic [ref=f25e173]: Name *
+            - textbox "Name *" [ref=f25e174]:
+              - /placeholder: Your name
+          - generic [ref=f25e175]:
+            - generic [ref=f25e176]: Company
+            - textbox "Company" [ref=f25e177]:
+              - /placeholder: Company name
+        - generic [ref=f25e178]:
+          - generic [ref=f25e179]:
+            - generic [ref=f25e180]: Email *
+            - textbox "Email *" [ref=f25e181]:
+              - /placeholder: you@company.com
+          - generic [ref=f25e182]:
+            - generic [ref=f25e183]: Phone
+            - textbox "Phone" [ref=f25e184]:
+              - /placeholder: +65 …
+        - generic [ref=f25e185]:
+          - generic [ref=f25e186]:
+            - generic [ref=f25e187]: Service
+            - combobox "Service" [ref=f25e188]:
+              - option "Air Freight" [selected]
+              - option "Sea Freight"
+              - option "Storage Hubs"
+              - option "Singapore Supply Chain"
+              - option "3PL"
+              - option "Local Handling & Delivery"
+              - option "Not sure yet"
+          - generic [ref=f25e189]:
+            - generic [ref=f25e190]: Route
+            - textbox "Route" [ref=f25e191]:
+              - /placeholder: Singapore → Dubai
+        - generic [ref=f25e192]:
+          - generic [ref=f25e193]: Details
+          - textbox "Details" [ref=f25e194]:
+            - /placeholder: Cargo, weight, dimensions, dates…
+      - generic [ref=f25e195]:
+        - button "Send on WhatsApp →" [ref=f25e196] [cursor=pointer]:
+          - text: Send on WhatsApp
+          - generic [ref=f25e197]: →
+        - button "Send by email" [ref=f25e198] [cursor=pointer]
+  - generic [ref=f25e199]:
+    - generic [ref=f25e200]:
+      - paragraph [ref=f25e201]: // Group
+      - heading "Our other businesses" [level=2] [ref=f25e202]
+      - paragraph [ref=f25e203]: Diverse businesses. One shared vision.
+      - paragraph [ref=f25e204]: Enkei Services is part of a wider group. Our sister companies serve FMCG and food distribution across Singapore and the region.
+    - generic [ref=f25e205]:
+      - link "FMCG distributor · Since 1999 HMN Global Brands Pte Ltd Reliable brand partner for perfumes and toiletries — Singapore FMCG distributor since 1999. Visit hmn-sg.vercel.app/ →" [ref=f25e206] [cursor=pointer]:
+        - /url: https://hmn-sg.vercel.app/
+        - generic [ref=f25e207]: FMCG distributor · Since 1999
+        - heading "HMN Global Brands Pte Ltd" [level=3] [ref=f25e208]
+        - paragraph [ref=f25e209]: Reliable brand partner for perfumes and toiletries — Singapore FMCG distributor since 1999.
+        - generic [ref=f25e210]: Visit hmn-sg.vercel.app/ →
+      - link "Food distribution AAA Global Foods Pte Ltd Brand-name foodstuffs distributor — quality food products across Singapore and the region. Visit aaagf.sg →" [ref=f25e211] [cursor=pointer]:
+        - /url: https://aaagf.sg
+        - generic [ref=f25e212]: Food distribution
+        - heading "AAA Global Foods Pte Ltd" [level=3] [ref=f25e213]
+        - paragraph [ref=f25e214]: Brand-name foodstuffs distributor — quality food products across Singapore and the region.
+        - generic [ref=f25e215]: Visit aaagf.sg →
+  - contentinfo [ref=f25e216]:
+    - generic [ref=f25e217]:
+      - generic [ref=f25e218]:
+        - img "Enkei Services logo" [ref=f25e219]
+        - paragraph [ref=f25e220]: Air & sea freight, storage hubs and supply-chain services — Singapore, Dubai and the Netherlands.
+        - paragraph [ref=f25e221]: "Enkei Services Pte LtdCo. Registration no. 201509336R10 Ubi Crescent, #06-51 Lobby CSingapore 408564"
+      - generic [ref=f25e222]:
+        - heading "Company" [level=4] [ref=f25e223]
+        - list [ref=f25e224]:
+          - listitem [ref=f25e225]:
+            - link "Services" [ref=f25e226] [cursor=pointer]:
+              - /url: "#services"
+          - listitem [ref=f25e227]:
+            - link "Coverage" [ref=f25e228] [cursor=pointer]:
+              - /url: "#network"
+          - listitem [ref=f25e229]:
+            - link "Tracking" [ref=f25e230] [cursor=pointer]:
+              - /url: "#tracking"
+          - listitem [ref=f25e231]:
+            - link "Get a quote" [ref=f25e232] [cursor=pointer]:
+              - /url: "#quote"
+      - generic [ref=f25e233]:
+        - heading "Contact" [level=4] [ref=f25e234]
+        - list [ref=f25e235]:
+          - listitem [ref=f25e236]:
+            - link "+65 8158 6235" [ref=f25e237] [cursor=pointer]:
+              - /url: tel:+6581586235
+          - listitem [ref=f25e238]:
+            - link "WhatsApp us" [ref=f25e239] [cursor=pointer]:
+              - /url: https://wa.me/6581586235
+          - listitem [ref=f25e240]:
+            - link "info@enkeiservices.com" [ref=f25e241] [cursor=pointer]:
+              - /url: mailto:info@enkeiservices.com
+          - listitem [ref=f25e242]:
+            - generic [ref=f25e243]: "10 Ubi Crescent, #06-51 Lobby C,Singapore 408564"
+    - generic [ref=f25e244]:
+      - generic [ref=f25e245]: © 2026 Enkei Services Pte Ltd · Co. Reg. 201509336R
+      - generic [ref=f25e246]: Singapore · Dubai · Netherlands
+  - generic:
+    - button "Chat with Enkei assistant":
+      - generic: Chat

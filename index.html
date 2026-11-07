@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Enkei Services Pte Ltd — Air &amp; Sea Freight, Storage Hubs &amp; Supply Chain</title>
+  <meta name="description" content="Air and sea freight, storage hubs in Singapore, Dubai and the Netherlands, Singapore supply chain, 3PL and local handling. Covering Singapore, Malaysia, Indonesia, India, Japan, Thailand, Hong Kong, Myanmar, Philippines, Europe, the Middle East and Africa." />
+  <meta name="theme-color" content="#0a121c" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'self' https://wa.me mailto:;" />
+  <meta property="og:title" content="Enkei Services Pte Ltd — Air &amp; Sea Freight" />
+  <meta property="og:description" content="Air &amp; sea freight with storage hubs in Singapore, Dubai and the Netherlands. Supply chain, 3PL and local handling across Asia, Europe, the Middle East and Africa." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/logo.png" />
+  <link rel="icon" href="assets/img/favicon-180.png" type="image/png" />
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/archivo-latin-wght-normal.woff2" crossorigin />
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/instrument-sans-latin-wght-normal.woff2" crossorigin />
+  <link rel="preload" as="image" href="assets/img/port-dusk-s.webp" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header" id="header">
+    <a class="brand" href="#top" aria-label="Enkei Services home">
+      <img src="assets/img/logo.png" alt="Enkei Services logo" width="640" height="501" />
+      <span class="brand-name">Enkei <span>Services</span></span>
+    </a>
+
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span></button>
+
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#tracking">Tracking</a>
+      <a href="#quote">Quote</a>
+      <a class="btn btn-primary" href="#quote">Get a quote</a>
+    </nav>
+  </header>
+
+  <!-- ================= FILM: hero + 7-beat scroll sequence ================= -->
+  <section class="film" id="top" aria-label="How Enkei moves your freight">
+    <div class="film-sticky">
+
+      <!-- photographic plates (one per beat) -->
+      <div class="plates" id="plates" aria-hidden="true">
+        <div class="plate is-first" data-plate="port-dusk"    style="background-image:url('assets/img/port-dusk-s.webp')"></div>
+        <div class="plate" data-plate="control-room"          style="background-image:url('assets/img/control-room-s.webp')"></div>
+        <div class="plate" data-plate="cargo-inside"          style="background-image:url('assets/img/cargo-inside-s.webp')"></div>
+        <div class="plate" data-plate="ship-aerial"           style="background-image:url('assets/img/ship-aerial-s.webp')"></div>
+        <div class="plate" data-plate="air-cargo"             style="background-image:url('assets/img/air-cargo-s.webp')"></div>
+        <div class="plate" data-plate="road-dusk"             style="background-image:url('assets/img/road-dusk-s.webp')"></div>
+        <div class="plate" data-plate="truck-dock"            style="background-image:url('assets/img/truck-dock-s.webp')"></div>
+      </div>
+
+      <!-- giant outlined display word -->
+      <div class="giant" id="giant" aria-hidden="true">PRECISION</div>
+
+      <!-- three.js container scene -->
+      <canvas id="scene" aria-hidden="true"></canvas>
+
+      <div class="film-ui">
+        <!-- hero copy (beat 1) -->
+        <div class="hero-copy" id="heroCopy">
+          <p class="hero-eyebrow" id="heroEyebrow"></p>
+          <h1 class="hero-title" id="heroTitle"></h1>
+          <p class="hero-body" id="heroBody"></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" id="heroPrimary" href="#quote">Get a quote <span class="arrow">→</span></a>
+            <a class="btn btn-ghost" id="heroSecondary" href="#tracking">Track a shipment</a>
+          </div>
+        </div>
+
+        <!-- beat caption (beats 2–7) -->
+        <div class="beat-copy" id="beatCopy" aria-live="polite">
+          <p class="beat-kicker" id="beatKicker"></p>
+          <h2 class="beat-title" id="beatTitle"></h2>
+          <p class="beat-line" id="beatLine"></p>
+        </div>
+
+        <!-- MEASURED beat callouts -->
+        <div class="callouts" id="callouts" aria-hidden="true">
+          <span class="callout c-len">12.03 M LENGTH</span>
+          <span class="callout c-hgt">2.90 M HEIGHT</span>
+          <span class="callout c-wt">21.4 T VERIFIED</span>
+        </div>
+
+        <!-- right rail -->
+        <div class="rail" aria-hidden="true">
+          <div class="rail-stage" id="railStage">LIFTED</div>
+          <div class="rail-track" id="railTrack"></div>
+        </div>
+
+        <div class="film-hint" id="filmHint"></div>
+
+        <div class="counter" aria-hidden="true">
+          <span class="counter-now" id="counterNow">01</span>
+          <span class="counter-total">/ 07</span>
+          <span class="counter-stage" id="counterStage">LIFTED</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STATS ================= -->
+  <section class="stats" id="stats" aria-label="Enkei at a glance">
+    <div class="stats-inner" id="statsGrid"></div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section class="section" id="services">
+    <div class="section-head reveal">
+      <p class="section-kicker">// What we move</p>
+      <h2 class="section-title">Six ways to get it there.</h2>
+      <p class="section-body">Air and sea freight, three storage hubs and the people on the ground to move it the last mile — booked as one shipment.</p>
+    </div>
+    <div class="services-grid" id="servicesGrid"></div>
+  </section>
+
+  <!-- ================= NETWORK ================= -->
+  <section class="section network" id="network">
+    <div class="network-plate" style="background-image:url('assets/img/sea-night-s.webp')" aria-hidden="true"></div>
+    <div class="section-head reveal">
+      <p class="section-kicker">// Coverage</p>
+      <h2 class="section-title" id="networkTitle"></h2>
+      <p class="section-body" id="networkBody"></p>
+    </div>
+    <div id="regionList" class="reveal"></div>
+  </section>
+
+  <!-- ================= TRACKING ================= -->
+  <section class="section" id="tracking">
+    <div class="split">
+      <div class="reveal">
+        <p class="section-kicker">// Tracking</p>
+        <h2 class="section-title" id="trackTitle"></h2>
+        <p class="section-body" id="trackBody"></p>
+        <div class="trust">
+          <div class="trust-item"><b>Hubs</b><p>Singapore · Dubai · Netherlands — your cargo is under one roof, not three vendors.</p></div>
+          <div class="trust-item"><b>Answered</b><p>Requests reach a person on our team, not an auto-reply queue.</p></div>
+          <div class="trust-item"><b>Proof</b><p>Proof of delivery returned the same day your shipment lands.</p></div>
+        </div>
+      </div>
+
+      <form class="form-card reveal" id="trackForm" novalidate>
+        <div class="field">
+          <label for="trackRef" id="trackRefLabel"></label>
+          <input id="trackRef" name="ref" type="text" required />
+        </div>
+        <div class="field">
+          <label for="trackContact" id="trackContactLabel"></label>
+          <input id="trackContact" name="contact" type="text" required />
+        </div>
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">Request location <span class="arrow">→</span></button>
+        </div>
+        <p class="form-note" id="trackNote"></p>
+        <div class="form-status" id="trackStatus"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= QUOTE ================= -->
+  <section class="section" id="quote" style="background:var(--bg-2); border-block:1px solid var(--line)">
+    <div class="split">
+      <div class="reveal">
+        <p class="section-kicker">// Quote</p>
+        <h2 class="section-title" id="quoteTitle"></h2>
+        <p class="section-body" id="quoteBody"></p>
+        <div class="trust">
+          <div class="trust-item"><b>Same day</b><p>Rates usually returned within the working day, often within the hour.</p></div>
+          <div class="trust-item"><b>Direct</b><p>Talk to the person who will handle the booking — <a href="tel:+6581586235" style="color:var(--orange-hi)">+65 8158 6235</a>.</p></div>
+          <div class="trust-item"><b>No obligation</b><p>A quote is a quote — nothing is charged until you book.</p></div>
+        </div>
+      </div>
+
+      <form class="form-card reveal" id="quoteForm" novalidate>
+        <div id="quoteFields"></div>
+        <div class="form-actions">
+          <button class="btn btn-primary" type="button" id="sendWhatsApp">Send on WhatsApp <span class="arrow">→</span></button>
+          <button class="btn btn-ghost" type="button" id="sendEmail">Send by email</button>
+        </div>
+        <div class="form-status" id="quoteStatus"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= OTHER BUSINESSES ================= -->
+  <section class="section other-biz" id="other-businesses">
+    <div class="section-head reveal">
+      <p class="section-kicker">// Group</p>
+      <h2 class="section-title" id="otherBizTitle"></h2>
+      <p class="section-body" id="otherBizSubtitle"></p>
+      <p class="section-body" id="otherBizBody" style="margin-top:10px"></p>
+    </div>
+    <div class="other-biz-grid" id="otherBizGrid"></div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer" id="contact">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/img/logo.png" alt="Enkei Services logo" width="640" height="501" />
+        <p class="footer-blurb" id="footerBlurb"></p>
+        <p class="footer-legal" id="footerLegal"></p>
+      </div>
+
+      <div>
+        <h4 id="footerLinksTitle"></h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#network">Coverage</a></li>
+          <li><a href="#tracking">Tracking</a></li>
+          <li><a href="#quote">Get a quote</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 id="footerContactTitle"></h4>
+        <ul>
+          <li><a href="tel:+6581586235">+65 8158 6235</a></li>
+          <li><a href="https://wa.me/6581586235" target="_blank" rel="noopener">WhatsApp us</a></li>
+          <li><a href="mailto:info@enkeiservices.com">info@enkeiservices.com</a></li>
+          <li><span>10 Ubi Crescent, #06-51 Lobby C,<br />Singapore 408564</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Enkei Services Pte Ltd · Co. Reg. 201509336R</span>
+      <span>Singapore · Dubai · Netherlands</span>
+    </div>
+  </footer>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/film.js"></script>
+  <script src="assets/app.js"></script>
+  <script src="assets/chat.js"></script>
+  <script type="module" src="assets/scene.js" integrity="sha384-3ujRr+oXEcmG4YbPiWqGQ/IrPsoy78fXrQDgwC5JQ8/EG0WdP8FNRIFE8R1JguRZ" crossorigin="anonymous"></script>
+</body>
+</html>
